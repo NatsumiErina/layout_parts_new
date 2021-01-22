@@ -2,6 +2,12 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .q4__bar {
   background-color: #ecf1f2;
   width: 100%;
