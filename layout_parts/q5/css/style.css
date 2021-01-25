@@ -19,89 +19,65 @@
   font-weight: 900;
 }
 
-.square1 {
+
+.square{
   width: 100px;
   height: 100px;
-  background-color: #ffefd3;
   line-height: 100px;
   position: absolute;
+}
+
+.square1 {
+  background-color: #ffefd3;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
 
 .square2 {
-  width: 100px;
-  height: 100px;
   background-color: #7084de;
-  line-height: 100px;
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 2;
 }
 
 .square3 {
-  width: 100px;
-  height: 100px;
   background-color: #d0ecea;
-  line-height: 100px;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 3;
 }
 
 .square4 {
-  width: 100px;
-  height: 100px;
   background-color: #8b7a5e;
-  line-height: 100px;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 4;
 }
 
 .square5 {
-  width: 100px;
-  height: 100px;
   background-color: #9fd6d2;
-  line-height: 100px;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 5;
 }
 
 .square6 {
-  width: 100px;
-  height: 100px;
   background-color: #fffee4;
-  line-height: 100px;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 6;
 }
 
 .square7 {
-  width: 100px;
-  height: 100px;
   background-color: #deae70;
-  line-height: 100px;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
 
 .square8 {
-  width: 100px;
-  height: 100px;
   background-color: #de70cf;
-  line-height: 100px;
-  position: absolute;
   position: relative;
   top: 120px;
   left: 120px;
