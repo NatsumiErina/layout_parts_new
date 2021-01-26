@@ -1,53 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
 .q4__bar {
   background-color: #ecf1f2;
-  width: 100%;
+  padding: 20px;
 }
 
 .longbar {
   width: 100%;
   display: table;
   text-align: center;
-  padding: 20px;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .longbar:first-child {
-  padding-bottom: 0;
+  margin-top: 0;
 }
 
-.fixed {
-  width: 100px;
+.text {
   padding: 20px 0;
   display: table-cell;
 }
 
 .Coral {
+  width: 100px;
   background-color: #fdc8b8;
 }
 
 .blue {
+  width: 100px;
   background-color: #b6d8ed;
 }
 
-.variable-purple {
+.purple {
   background-color: #e0abd9;
-  padding: 20px 0;
-  display: table-cell;
-}
-
-.variable {
-  padding: 20px 0;
-  display: table-cell;
 }
 
 .yellow {
@@ -58,11 +45,9 @@
   background-color: #ec8f9a;
 }
 
-.fixed-green {
+.green {
   width: 500px;
   background-color: #8fdcad;
-  padding: 20px 0;
-  display: table-cell;
 }
 
 /* 回答はここに書いてね */
