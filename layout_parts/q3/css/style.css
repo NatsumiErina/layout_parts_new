@@ -8,36 +8,26 @@
   text-align: center;
 }
 
-td {
+.food td {
   border: 1px solid #dedede;
   padding: 10px;
 }
 
-td:first-child {
-  font-size: 18px;
-  line-height: 26px;
-  background-color: #2244aa;
-  color: #ecf1f2;
-}
-
-tr {
+.food tr {
   border: 1px solid #dedede;
 }
 
-tr:nth-child(2n+1) {
+.food tbody tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.food tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
-.contents {
+.food th {
   font-size: 18px;
   line-height: 26px;
-}
-
-th {
   border: 1px solid #dedede;
   padding: 10px;
   background-color: #2244aa;
