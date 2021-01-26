@@ -30,6 +30,11 @@
 .box-table {
   display: table-cell;
   vertical-align: middle;
+  padding-left: 50px;
+}
+
+.box-table:first-child {
+  padding-left: 0;
 }
 
 .table-text {
@@ -37,25 +42,29 @@
   box-sizing: border-box;
   font-size: 16px;
   vertical-align: middle;
-  margin-left: 50px;
 }
 
-.table-text:first-child {
-  margin-left: 0;
+.inner-inlineblock {
+  font-size: 0;
 }
 
 .box-inlineblock {
   width: 225px;
   box-sizing: border-box;
   display: inline-block;
+  font-size: 16px;
+  margin-left: 50px;
+  vertical-align: middle;
 }
 
 .box-inlineblock:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 .inner-flex{
   display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .box-flex {
@@ -63,16 +72,34 @@
   box-sizing: border-box;
 }
 
+
 .is-full {
   width: 100%;
   box-sizing: border-box;
-  display: inline-block;
+  font-size: 0;
 }
 
-.text-Fixed {
+.box-margin-Fixed {
   width: 300px;
-  margin-right: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
 }
+
+.box-margin-variable {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
+.q7__box__text{
+  font-size: 16px;
+}
+
+
+
 
 
 /* 回答はここに書いてね */
