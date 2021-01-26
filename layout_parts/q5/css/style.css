@@ -8,7 +8,7 @@
   clear: both;
 }
 
-.q5__square0 {
+.q5__square {
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
@@ -27,63 +27,63 @@
   position: absolute;
 }
 
-.square1 {
+.move1 {
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
 
-.square2 {
+.move2 {
   background-color: #7084de;
   top: 120px;
   left: 280px;
   z-index: 2;
 }
 
-.square3 {
+.move3 {
   background-color: #d0ecea;
   top: 200px;
   left: 360px;
   z-index: 3;
 }
 
-.square4 {
+.move4 {
   background-color: #8b7a5e;
   top: 280px;
   left: 280px;
   z-index: 4;
 }
 
-.square5 {
+.move5 {
   background-color: #9fd6d2;
   top: 360px;
   left: 200px;
   z-index: 5;
 }
 
-.square6 {
+.move6 {
   background-color: #fffee4;
   top: 280px;
   left: 120px;
   z-index: 6;
 }
 
-.square7 {
+.move7 {
   background-color: #deae70;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
 
-.square8 {
+.move8 {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
 
-.square8::after {
+.move8::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -93,7 +93,7 @@
   right: 0;
 }
 
-.square9 {
+.move9 {
   width: 100px;
   height: 100px;
   background-color: #2b69a3;
