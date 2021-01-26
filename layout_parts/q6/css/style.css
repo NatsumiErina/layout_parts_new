@@ -2,12 +2,12 @@
 
 /* 回答はここに書いてね */
 
-.box_left {
+.box_text-align {
   text-align: center;
 }
 
 
-.bluebox_left {
+.bluebox_text-align {
   width: 90px;
   display: inline-block;
   padding-top: 10px;
@@ -15,7 +15,7 @@
   background-color: #e6f2ff;
 }
 
-.bluebox_right {
+.bluebox_margin {
   width: 90px;
   text-align: center;
   padding-top: 10px;
@@ -51,7 +51,7 @@
   background-color: #fff;
 }
 
-.is-stable {
+.inbox {
   position: relative;
 }
 
@@ -62,10 +62,6 @@
   left: 0;
   right: 0;
   margin: auto;
-}
-
-.is-flexible {
-  position: relative;
 }
 
 .is-bottom {
