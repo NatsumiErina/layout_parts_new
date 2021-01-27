@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.car {
+  text-align: center;
+  position: relative;
+}
+
+.car {
+  background: linear-gradient(rgda(0,0,0,0,), rgda(0,0,0,8)) url(http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/img/q9/thumb.jpg);
+
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 /* 回答はここに書いてね */
