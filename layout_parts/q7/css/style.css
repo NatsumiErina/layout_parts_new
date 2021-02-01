@@ -13,14 +13,10 @@
   float: left;
   font-size: 16px;
   box-sizing: border-box;
-  margin-right: 50px;
 }
 
-.float-longtext {
-  width: 225px;
-  font-size: 16px;
-  float: left;
-  box-sizing: border-box;
+.float-text:first-child {
+  margin-right: 50px;
 }
 
 .is-table {
