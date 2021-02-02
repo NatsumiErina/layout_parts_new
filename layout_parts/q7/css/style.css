@@ -13,10 +13,11 @@
   float: left;
   font-size: 16px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
 .float-text:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 .is-table {
@@ -37,7 +38,6 @@
   width: 225px;
   box-sizing: border-box;
   font-size: 16px;
-  vertical-align: middle;
 }
 
 .inner-inlineblock {
@@ -69,9 +69,7 @@
 }
 
 
-.is-full {
-  width: 100%;
-  box-sizing: border-box;
+.box-margin {
   font-size: 0;
 }
 
@@ -80,6 +78,7 @@
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
+  font-size: 16px;
 }
 
 .box-margin-variable {
@@ -88,11 +87,10 @@
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
-}
-
-.q7__box__text{
   font-size: 16px;
 }
+
+
 
 
 
