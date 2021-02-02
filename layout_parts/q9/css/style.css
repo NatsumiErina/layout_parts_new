@@ -6,8 +6,6 @@
 .q9__text {
   position: relative;
   margin: 0 auto;
-  left: 0;
-  right: 0;
   width: 500px;
   border: solid 5px #222;
   border-radius: 30px;
@@ -19,28 +17,23 @@
 .q9__text::after {
   position: absolute;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   border: 5px solid;
   border-color: transparent transparent #222 #222;
-  position: absolute;
-  left: 35px;
-  bottom: -19px;
+  left: 32px;
+  bottom: -18px;
   transform: rotate(-45deg);
 }
 
 .q9__text::before {
   position: absolute;
   content: "";
-  width: 0px;
-  height: 0px;
-  border: 20px solid white;
-  border-right: 20px solid transparent;
-  border-top: 20px solid transparent;
-  position: absolute;
+  width: 39px;
+  height: 39px;
+  background-color: #fff;
   left: 30px;
-  bottom: -10px;
-  transform: rotate(-45deg);
+  bottom: -39px;
 }
 
 
