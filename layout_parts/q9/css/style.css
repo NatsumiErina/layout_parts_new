@@ -14,9 +14,12 @@
   line-height: 16px;
 }
 
-.q9__text::after {
+.q9__text::before,.q9__text::after {
   position: absolute;
   content: "";
+}
+
+.q9__text::after {
   width: 26px;
   height: 26px;
   border: 5px solid;
@@ -27,8 +30,6 @@
 }
 
 .q9__text::before {
-  position: absolute;
-  content: "";
   width: 39px;
   height: 39px;
   background-color: #fff;
